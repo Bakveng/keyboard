@@ -1,0 +1,404 @@
+/*******
+* Font
+********/
+@font-face { font-family: Metal-Chhor; src: url('DH-Metal-Chhor.ttf'); } 
+@font-face { font-family: Tlok; src: url('Tlok.ttf'); } 
+@font-face { font-family: Chenla; src: url('Chenla.ttf'); } 
+
+
+.center {
+    text-align: center;
+}
+
+.white {
+    /* color: #DDD; */
+}
+
+.brand-above {
+    margin-bottom: 20px;
+    font-family: "Moulpali", "Caecilia-RomanSC", Verdana, sans-serif !important;
+}
+
+.brand-below {
+    font-family: "Moulpali", "Caecilia-RomanSC", Verdana, sans-serif !important;
+    font-size: medium !important;
+    margin-top: 40px;
+}
+
+/***************
+ * Intro Panel *
+ ***************/
+#story-header {
+	color: #1CA2F7;
+}
+
+#story-header #logo {
+	margin : 20px 0 50px 0;
+}
+
+#story-header h2 {	
+	text-shadow: 1px 1px 5px #222;
+	font-size: 40px;
+	font-family: 'Moulpali', cursive;
+	margin-bottom: 25px;
+	/* color: #1CA2F7; */;
+	/* text-align: center; */
+	text-align: center;
+}
+
+#story-header .story {	
+	padding-right : 0px;
+	position: relative;
+	width: 850px;
+	padding-top: 50px;
+	height: 100%;
+}
+
+#story-header p {
+	width: 100%;
+	font-size : 16px;
+	color: #DDD;
+	text-shadow: 0px 1px 5px#222;
+	font-family: "Metal-Chhor";
+	font-size: 24px;
+	/* font-weight: bold; */
+	text-align: center;
+}
+
+#story-header ul li {
+	font-size : 16px;
+	margin    : 16px 0;
+}
+
+#story-header ul {
+	padding : 0px;
+}
+
+/***************
+ * Intel Panel *
+ ***************/
+#story-intel {
+	color      : #FFF;
+	background : #022639;
+	box-shadow: 0px -2px 15px #3C3A3A;
+}
+
+/*********************
+ * Ultrabook Project *
+ *********************/
+#story-william {
+	color      : #CCC;
+	background : #000;
+	box-shadow: 0px -2px 15px #3C3A3A;
+}
+
+#story-william .bg {
+	left  : auto;
+	right : 0px;
+}
+
+#story-foo {
+	box-shadow: 0px -2px 15px #3C3A3A;
+}
+
+/**************
+ * Bing Panel *
+ **************/
+#story-bing {
+	color       : #FFF;
+	text-shadow : 1px 1px 1px #000;
+	background  : #C9BC33;
+}
+
+#story-bing .logo {
+	position : absolute;
+	right    : 20%;
+	bottom   : 50%;
+}
+
+#story-bing .logo.start {
+	bottom : 190%;
+}
+
+#story-bing .logo.end {
+	bottom : -90%;
+}
+
+/**************
+ * Nike Panel *
+ **************/
+#story-nike {
+	color      : #CCC;
+	background : #000;
+	box-shadow: 0px -2px 15px #3C3A3A;
+}
+
+#story-nike .logo {
+	position : absolute;
+	right    : 0%;
+	bottom   : 30%;
+}
+
+#story-nike .logo.start {
+	bottom : 170%;
+}
+
+#story-nike .logo.end {
+	bottom : -210%;
+}
+
+#story-nike .box {
+	background    : #000;
+	opacity       : .7;
+	border-radius : 10px;
+	position      : absolute;
+	top           : -10px;
+	right         : 440px;
+	bottom        : -10px;
+	left          : -10px;
+	z-index       : -1;
+}
+
+#story-nike ul.slide {
+	display     : block;
+	position    : absolute;
+	white-space : nowrap;
+	left        : -1426px;
+}
+
+#story-nike ul.slide.start {
+	left : -1425px;
+}
+
+#story-nike ul.slide li {
+	display : inline;
+}
+
+#story-nike ul.slide-1.start { opacity : 0; }
+#story-nike ul.slide-2.start { opacity : 0; }
+#story-nike ul.slide-3.start { opacity : 0; }
+
+#story-nike ul.slide-1 {
+	bottom : 0px;
+}
+
+#story-nike ul.slide-2, #story-nike ul.slide-2.to {
+	bottom : 176px;
+	left   : -1425px;
+}
+
+#story-nike ul.slide-2.start {
+	left : -1426px;
+}
+
+#story-nike ul.slide-3 {
+	bottom : 352px;
+}
+
+
+#story-nike ul.slide-1.to, #story-nike ul.slide-3.to {
+	left : -1425px;
+}
+
+#story-nike ul.slide-1.end {
+	right : 0px;
+	left  : auto;
+}
+
+#story-nike ul.slide-3.end {
+	right : 1200px;
+	left  : auto;
+}
+
+
+#story-nike ul.slide-2.to {
+	right : 0px;
+}
+
+#story-nike ul.slide-2.end {
+	left : 200px;
+}
+
+.video-container {
+    position: fixed;
+    /* padding-bottom: 56.25%; */
+    /* padding-top: 30px; */ 
+    /* height: 100%; */ overflow: hidden;
+    /* width: 100%; */
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#available-on-app-store {
+    margin-top: 60px;   
+}
+
+.brand-color {
+    color: #1CA2F7;
+}
+
+#facebook-like {
+    margin-left: -10px;
+}
+
+#appstore-and-fb {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    bottom: 200px;
+}
+
+#appstore-and-fb-footer {
+    width: 150px;
+    margin-top: 70px;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 6px;
+    color: #FFF;
+    /* text-shadow: 0 0 2px #D3D3D3; */
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: block;
+    font-family: "Chenla";
+    font-size: 1;
+    font-size: larger;
+}
+
+.button:hover {    
+    -webkit-transform: scale(1.2);
+    text-decoration: none;
+}
+
+.call-to-action {
+    color: #FF3030;
+}
+
+.play {
+    width: 150px;   
+    border-radius: 50%;
+    height: 150px;    
+    position: relative;
+}
+
+.play-icon {
+    position: absolute;
+    left: 35%;
+    top: 24%;
+}
+
+.play-button-container {
+    position: absolute;
+    left: 45%;
+    top: 35%;    
+}
+
+.play-button-container-campaign {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    z-index: 1000;
+}
+
+#exit-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 50px;    
+    border-radius: 50%;
+    background: none;
+}
+
+.rewards {
+    position: absolute;
+    right: 50px;
+    font-size: larger;
+}
+
+.reward {
+    margin-top: 10px;
+}
+
+.rewards-logo {
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+}
+.payment-container .btn{
+	float:left;
+	background:#333;
+	border:0px;
+	margin-left:170px;}
+
+.payment-container {
+    position:fixed;
+	width:530px;
+	height:600px;
+    left:200px;
+    bottom:300px;
+	border-radius:10px;
+	float:left;
+    right:100px;
+    top: 50px;
+	background:#333;
+}
+.payment-container h1{
+	margin-left:30px;
+	font-size:34px;
+	font-weight:bolder;
+	font-family:Khmer UI;
+	font-weight:bold;
+	margin-bottom:30px;
+	text-decoration:underline;
+	margin-top:20px;}
+	.payment-container dt{
+		color:#dd944c;
+		font-size:23px;
+		font-weight:bold;
+		font-family:Gill Sans Ultra B;
+		margin-left:30px;
+		margin-bottom:18px;
+		float:inherit;}
+		.payment-container dd{
+			font-size:21px;
+			margin-bottom:10px;
+			color:#999;
+			font-weight:bold;
+			margin-left:40px;}
+.payment-container h2{
+	float:left;
+	font-size:40px;
+	font-family:cursive;
+	margin-left:300px;
+	margin-bottom:-50px;
+	margin-top:10px;}
+	.payment-container h2:hover{
+		float:left;
+		color:#06C;
+		font-size:50px;
+		border:0px;
+		font-family:cursive;
+		}
+	#buttomclose{
+		color:#FFF;}
+	#buttomclose:hover{
+		color:#FFF;}
