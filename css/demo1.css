@@ -282,6 +282,9 @@
     font-size: 1;
     font-size: larger;
 }
+img{
+	border:0;
+	width:100%;}
 
 .button:hover {    
     -webkit-transform: scale(1.2);
