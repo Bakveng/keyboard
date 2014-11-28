@@ -10,7 +10,9 @@ body {
 	font-family: "Metal-Chhor", "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;	
 	overflow-x  : hidden;
 }
-
+#fixbg{
+	width:100%;
+	float:left;}
 #content {
 	position : fixed;
 	top      : 0px;
