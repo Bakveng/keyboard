@@ -31,6 +31,9 @@
 #story-header {
 	color: #1CA2F7;
 }
+#story-header img{
+	width:100%;
+	float:left;}
 
 #story-header #logo {
 	margin : 20px 0 50px 0;
