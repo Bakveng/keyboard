@@ -1,5 +1,3 @@
-TEST
-
 # A Parallax JavaScript library based on HTML / CSS
 
 [Demo](http://razorfish.github.com/Parallax-JS)

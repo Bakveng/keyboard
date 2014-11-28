@@ -30,21 +30,7 @@
  ***************/
 #story-header {
 	color: #1CA2F7;
-	float:left;
 }
-#story-header img{
-	width:100%;
-	float:left;}
-.bgimage{
-	width:100%;
-	height:auto;
-	float:left;
-	}
-	.bgimage img{
-		width:100%;
-		float:left;
-		height:auto;
-		box-shadow:10px 10px 10px 10px #666666;}
 
 #story-header #logo {
 	margin : 20px 0 50px 0;
@@ -296,8 +282,6 @@
     font-size: 1;
     font-size: larger;
 }
-img{
-	border:0;}
 
 .button:hover {    
     -webkit-transform: scale(1.2);
