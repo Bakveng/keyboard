@@ -35,13 +35,17 @@
 	width:100%;
 	float:left;}
 .bganimate{
-	width:1080px;
-	float:left;
-	height:auto;}
-	.bganimate img{
-		width:1080px;
+	width:100%;
+	height:auto;
+	}
+	.bganimate:hover{
+		width:1100px;
 		height:auto;
-		float:left;}
+		}
+	.bganimate img{
+		width:100%;
+		height:auto;
+		box-shadow:10px 10px 10px 10px #666666;}
 
 #story-header #logo {
 	margin : 20px 0 50px 0;
