@@ -30,6 +30,7 @@
  ***************/
 #story-header {
 	color: #1CA2F7;
+	float:left;
 }
 #story-header img{
 	width:100%;
@@ -37,9 +38,11 @@
 .bgimage{
 	width:100%;
 	height:auto;
+	float:left;
 	}
 	.bgimage img{
 		width:100%;
+		float:left;
 		height:auto;
 		box-shadow:10px 10px 10px 10px #666666;}
 
